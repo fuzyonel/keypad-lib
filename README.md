@@ -155,7 +155,11 @@ Key 2: Transition change: KEY_PRESSED -> KEY_HOLD
 ---
 
 ## License
-Add your preferred license here.
+The MIT License is a permissive open-source license. Here's a short summary:
+
+* **You can** => Use, copy, modify, merge, publish, distribute, sublicense, and sell the software.
+* **You must** => Include the original license notice in any copies or substantial portions of the software.
+* **No Warranty** => The software is provided "as is," without any warranty, and the author is not liable for any damages.
 
 ---
 
