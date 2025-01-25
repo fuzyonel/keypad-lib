@@ -1,10 +1,3 @@
-/*
- * File:   keypad.h
- * Author: tugru
- *
- * Created on January 25, 2025, 1:27 AM
- */
-
 #ifndef KEYPAD_H
 #define	KEYPAD_H
 
