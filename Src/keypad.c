@@ -1,3 +1,4 @@
+#include <stdint.h>
 #include "keypad.h"
 
 #ifdef __FUZYONEL_KEYPAD_DEBUG
@@ -88,7 +89,7 @@ void Keypad_Scan(Fuz_Keypad_t *keypad, uint32_t currentTime) {
             if (currentTime - keypad->Keys[i].LastActionTime > __FUZYONEL_KEYPAD_IDLE_TIME) {
                 keypad->Keys[i].State = KEY_IDLE;
             } else {
-                keypad->Keys[i].State = KEY_RELEASED;sssssssssssssssssssssssssss
+                keypad->Keys[i].State = KEY_RELEASED;
                 keypad->Keys[i].LastActionTime = currentTime;
 #ifdef __FUZYONEL_KEYPAD_DEBUG
                 snprintf(msg, sizeof (msg), "Key %d: Transition change: %s -> %s", i, __FUZYONEL_KEYPAD_STATE_STRINGS[oldState], __FUZYONEL_KEYPAD_STATE_STRINGS[newState]);
